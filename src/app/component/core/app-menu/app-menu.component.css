@@ -2,11 +2,48 @@
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
+
+}
+
+.app-menu-bar-others {
+    padding-left: 10px;
 }
 
 .app-menu-bar-social {
+    float: right;
+}
+
+.navbar {
+    height: 40px;
 }
 
 .navbar-brand {
-    font-size: 20px;
+    font-size: 15px;
+}
+
+.social-circle {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 25px;
+	height: 25px;
+	font-size:15px;
+	background-color: #D3D3D3;
+}
+.social-circle i {
+	margin:0;
+	line-height:25px;
+	text-align: center;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
 }

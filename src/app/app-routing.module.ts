@@ -11,6 +11,10 @@ const routes: Routes = [
     component: HomePageComponent
   },
   {
+    path: 'aboutme',
+    component: ErrorPageComponent
+  },
+  {
     path: 'error',
     component: ErrorPageComponent
   }
