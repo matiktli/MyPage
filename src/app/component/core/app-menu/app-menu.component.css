@@ -1,18 +1,33 @@
 .app-menu-bar {
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+	border-radius: 50px;
+}
+
+.app-menu-bar.navbar {
+	height: 37px;
+}
+
+.app-menu-bar-logo {
+	font-size: 40px;
+}
+
+.app-menu-bar-others .navbar-nav {
+	padding-left: 10px;
+}
+
+.app-menu-bar-others .navbar-nav .nav-link{
+	font-size: 15px;
+}
+
+.app-menu-bar-social .navbar-nav {
+	padding-left: 10px;
 }
 
 .app-menu-bar-others {
-    padding-left: 10px;
+	
 }
 
 .app-menu-bar-social {
-}
-
-.navbar {
-    height: 40px;
+	
 }
 
 .navbar-brand {

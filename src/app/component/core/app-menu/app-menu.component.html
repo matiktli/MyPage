@@ -1,31 +1,34 @@
-<div class="app-menu-bar">
-<nav class="navbar navbar-expand flex-column flex-md-row bd-navbar navbar-dark bg-dark">
+<div class="app-menu-bar navbar bg-dark">
     
   <!--Logo part-->
-  <div class="row col-md-3">
-    <a class="navbar-brand active" routerLink="/">MyPage
+  <div class="navbar-nav navbar-brand active">
+    <a routerLink="/" class="app-menu-bar-logo">MyPage
       <span class="sr-only">(current)</span>
     </a>
   </div>
     
-  <div class="row">
-    <!--Rest of nav bar-->
-    <div class="app-menu-bar-others navbar-expand">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/aboutme">About me?</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" routerLink="/higjag">HIGJAG</a>
-          </li>
-        </ul>
+  <!--Rest of nav bar-->
+  <div class="navbar-nav navbar-expand app-menu-bar-others">
+    <div class="navbar-nav">
+      <a class="nav-link" routerLink="/aboutme">
+        <span class="nav-link">About me?</span>
+      </a>
+    </div> 
+    <div class="navbar-nav">
+      <a class="nav-link" routerLink="/error">
+        <span class="nav-link">HIGJAG</span>
+      </a>
     </div>
+  </div>
 
-    <!--Social links part-->
-    <div class="row">
-        <a href="#" class="social-circle icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <!--Social links part-->
+  <div class="navbar-nav navbar-expand app-menu-bar-social">
+    <div class="navbar-nav">
+      <a href="#" class="social-circle icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+    </div> 
+    <div class="navbar-nav">
+      <a href="#" class="social-circle icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
     </div>
-  </div>   
+  </div>
 
-</nav>
 </div>
