@@ -1,5 +1,11 @@
 .app-menu-bar {
 	border-radius: 50px;
+	opacity: 0.7;
+	
+}
+.app-menu-bar:hover {
+	border-radius: 50px;
+	opacity: 1;
 }
 
 .app-menu-bar.navbar {
