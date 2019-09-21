@@ -5,6 +5,7 @@
     -webkit-font-smoothing: antialiased;
 }
 
-.main-body {
-    background-size: 100% auto;
-}
+app-root {
+    display: block;
+    height: 100%;
+  }
