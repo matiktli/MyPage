@@ -9,6 +9,8 @@ import { HomePageComponent } from './component/home-page/home-page.component';
 import { ErrorPageComponent } from './component/error-page/error-page.component';
 import { AppMenuComponent } from './component/core/app-menu/app-menu.component';
 import { AppFooterComponent } from './component/core/app-footer/app-footer.component';
+import { LandingPageComponent } from './component/landing-page/landing-page.component';
+import { LandingPageTitleComponent } from './component/landing-page/landing-page-title/landing-page-title.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { AppFooterComponent } from './component/core/app-footer/app-footer.compo
     HomePageComponent,
     ErrorPageComponent,
     AppMenuComponent,
-    AppFooterComponent
+    AppFooterComponent,
+    LandingPageComponent,
+    LandingPageTitleComponent
   ],
   imports: [
     BrowserModule,

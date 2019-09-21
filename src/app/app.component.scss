@@ -1,21 +1,35 @@
 @import '../assets/css/main/main';
 
 .app-app-container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.app-app-bg-img {
+    height: 100%;
     background-image: url('../assets/img/main_background.jpg');
     background-size: 100% auto;
-    height: 100%;
+    filter: blur(3px);
+    -webkit-filter: blur(5px);  
 }
 
 .app-app-menu {
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    position: absolute;
+    align-self: center;
+    top: $app-menu-bar-padding-top;
+    right: $app-menu-bar-padding-horizontal;
+    left: $app-menu-bar-padding-horizontal;
+}
+
+.app-app-body-container {
+    position: absolute;
+    align-self: center;
+    top: $app-body-container-padding-top;
+    right: $app-body-container-padding-horizontal;
+    left: $app-body-container-padding-horizontal;
 }
 
 .app-app-body {
-    padding-top: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
+    
 }
-
-/* NEEDS TO BE GLOBAL STYLES */
