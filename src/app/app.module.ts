@@ -11,6 +11,7 @@ import { AppMenuComponent } from './component/core/app-menu/app-menu.component';
 import { AppFooterComponent } from './component/core/app-footer/app-footer.component';
 import { LandingPageComponent } from './component/landing-page/landing-page.component';
 import { LandingPageTitleComponent } from './component/landing-page/landing-page-title/landing-page-title.component';
+import { ResumePageComponent } from './component/about-page/resume-page/resume-page.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { LandingPageTitleComponent } from './component/landing-page/landing-page
     AppMenuComponent,
     AppFooterComponent,
     LandingPageComponent,
-    LandingPageTitleComponent
+    LandingPageTitleComponent,
+    ResumePageComponent
   ],
   imports: [
     BrowserModule,
