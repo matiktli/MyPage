@@ -1,0 +1,21 @@
+@import '../assets/css/main/main';
+
+.app-app-container {
+    background-image: url('../assets/img/main_background.jpg');
+    background-size: 100% auto;
+    height: 100%;
+}
+
+.app-app-menu {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.app-app-body {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* NEEDS TO BE GLOBAL STYLES */
