@@ -10,6 +10,13 @@
     height: 100%;
     background-image: url('../assets/img/main_background_desk.jpg');
     background-size: 100% 100%;
+    min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .app-app-menu {
